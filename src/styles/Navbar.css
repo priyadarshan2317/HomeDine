@@ -1,0 +1,66 @@
+:root {
+  --navbar-bg-color: #dff4e5; /* Background color of the navbar */
+  --navbar-text-color: rgb(5, 134, 5); /* Text color of the navbar items */
+  --navbar-hover-color: #ec220f; /* Hover effect color */
+  --navbar-border-color: white; /* Border color for the navbar */
+  --navbar-title-color: #ffffff;
+}
+
+.navbar {
+  display: flex; /* Ensure the navbar items are displayed in a row */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Space out the logo and links */
+  background-color: var(--navbar-bg-color); /* Set the navbar's background color */
+  border-bottom: 1px solid var(--navbar-border-color); /* Add a bottom border */
+  padding: 5px 10px; /* Adjusted padding to reduce the height of the navbar */
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center; /* Vertically center the logo */
+}
+
+.logo-image {
+  width: 25%; /* Set the width of the logo */
+}
+
+.navbar-links {
+  display: flex; /* Align navbar items in a row */
+  align-items: center; /* Vertically center the links */
+  padding-right: 30px; /* Add padding to the right of the links */
+}
+
+.navbar-item {
+  margin-left: 20px; /* Space between the navbar items */
+  font-family: 'Times New Roman', Times, serif; /* Set the font style */
+  font-size: 25px; /* Set the font size */
+}
+
+.navbar-item a {
+  text-decoration: none; /* Remove underline from the links */
+  color: var(--navbar-text-color); /* Set the text color */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar-item a:hover {
+  color: var(--navbar-hover-color); /* Change text color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically on small screens */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically on small screens */
+    width: 100%; /* Full width for the links container */
+  }
+
+  .navbar-item {
+    margin-left: 0; /* Reset left margin */
+    margin-top: 10px; /* Add top margin for spacing */
+  }
+}

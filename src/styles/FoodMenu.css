@@ -1,0 +1,44 @@
+
+.food-menu {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.food-menu h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.food-menu .card {
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-menu .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.food-menu .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.food-menu .card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.food-menu .card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #34495e;
+  text-align: center;
+  margin-top: 10px;
+}
+

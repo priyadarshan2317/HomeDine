@@ -1,0 +1,75 @@
+#veg-breakfast {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#food-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#food-row-1, #food-row-2 {
+    margin-top: 20px;
+}
+
+#col-breakfast-1, #col-lunch-1, #col-dinner-1,
+#col-breakfast-2, #col-lunch-2, #col-dinner-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#card-breakfast-1, #card-lunch-1, #card-dinner-1,
+#card-breakfast-2, #card-lunch-2, #card-dinner-2 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#card-breakfast-1:hover, #card-lunch-1:hover, #card-dinner-1:hover,
+#card-breakfast-2:hover, #card-lunch-2:hover, #card-dinner-2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#img-breakfast-1, #img-lunch-1, #img-dinner-1,
+#img-breakfast-2, #img-lunch-2, #img-dinner-2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+#body-breakfast-1, #body-lunch-1, #body-dinner-1,
+#body-breakfast-2, #body-lunch-2, #body-dinner-2 {
+    text-align: center;
+}
+
+#title-breakfast-1, #title-lunch-1, #title-dinner-1,
+#title-breakfast-2, #title-lunch-2, #title-dinner-2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#text-breakfast-1, #text-lunch-1, #text-dinner-1,
+#text-breakfast-2, #text-lunch-2, #text-dinner-2 {
+    margin-top: 10px;
+}
+
+#button-breakfast-1, #button-lunch-1, #button-dinner-1,
+#button-breakfast-2, #button-lunch-2, #button-dinner-2 {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#button-breakfast-1:hover, #button-lunch-1:hover, #button-dinner-1:hover,
+#button-breakfast-2:hover, #button-lunch-2:hover, #button-dinner-2:hover {
+    background-color: #218838;
+}

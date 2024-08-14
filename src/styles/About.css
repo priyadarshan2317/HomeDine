@@ -1,0 +1,96 @@
+/* Container for the entire about page */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover; /* Ensures the image covers the entire background */
+  padding: 20px;
+  color: #333; /* Dark text color for readability */
+}
+
+/* Content box styling */
+.about-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow for emphasis */
+  padding: 40px;
+  max-width: 800px; /* Maximum width for the content box */
+  width: 100%;
+  text-align: center;
+}
+
+/* Header styling */
+.about-content h3 {
+  font-size: 2.4rem; /* Larger font size for header */
+  color: #03772a; /* Teal color for the header */
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif; /* Modern font style */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Softer shadow for header */
+}
+
+/* Paragraph styling */
+.about-content p {
+  font-size: 1.2rem;
+  color: #555; /* Darker text color */
+  line-height: 1.6; /* Increased line height for better readability */
+  margin-bottom: 20px;
+}
+
+/* Team image styling */
+.team-image {
+  width: 100%;
+  max-width: 600px; /* Limit width for better presentation */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-bottom: 20px;
+}
+
+/* Details section styling */
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between details */
+}
+
+.detail {
+  background-color: #e0f2f1; /* Light teal background for details */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for detail boxes */
+}
+
+.detail h4 {
+  font-size: 1.8rem;
+  color: #03772a; /* Matching color with the header */
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif; /* Modern font style */
+}
+
+.detail p {
+  font-size: 1rem;
+  color: #333; /* Dark color for text */
+  font-family: 'Arial', sans-serif; /* Simple font style */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-content {
+    padding: 20px;
+  }
+
+  .about-content h3 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .team-image {
+    max-width: 100%;
+  }
+
+  .detail h4 {
+    font-size: 1.5rem;
+  }
+}

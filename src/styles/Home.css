@@ -1,0 +1,127 @@
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: green;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --banner-text-color: #fff;
+  --feature-text-color: #666;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.home {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.home-banner {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+.home-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.home-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--banner-text-color);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.home-banner-text h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Lora', serif;
+}
+
+.home-banner-text p {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.home-content {
+  padding: 2rem;
+}
+
+.home-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: green;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Lora', serif;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home-features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.home-feature {
+  flex: 1;
+  min-width: 250px;
+  max-width: 30%;
+  margin: 1rem 0;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  padding: 1rem;
+}
+
+.home-feature-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.home-feature h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: 'Lora', serif;
+}
+
+.home-feature p {
+  font-size: 1rem;
+  color: var(--feature-text-color);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+}

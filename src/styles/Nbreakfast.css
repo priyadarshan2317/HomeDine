@@ -1,0 +1,84 @@
+/* Vbreakfast.css */
+
+#veg-breakfast {
+    padding: 2rem 0;
+    background-color: #f8f9fa; /* Light background for contrast */
+  }
+  
+  #food-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #food-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #col-breakfast-1 {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #card-breakfast-1 {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  #card-breakfast-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  #img-breakfast-1 {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  #body-breakfast-1 {
+    padding: 1.5rem;
+  }
+  
+  #title-breakfast-1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #343a40;
+  }
+  
+  #text-breakfast-1 {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  #text-breakfast-1 button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #text-breakfast-1 button:hover {
+    background-color: #218838;
+  }
+  
+  #text-breakfast-1 button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  }
+  
+  @media (max-width: 768px) {
+    #card-breakfast-1 {
+      width: 100%;
+    }
+  }
+  

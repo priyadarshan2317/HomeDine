@@ -1,0 +1,9 @@
+#x{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid green;
+    border-radius: 3px;
+    font-size: 25px;
+    text-align: center;
+    margin: 100px;
+}
